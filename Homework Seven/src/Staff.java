@@ -1,12 +1,16 @@
-import java.util.Vector;
+import java.util.*;
 
 public abstract class  Staff {
-    public int SalaryCoefficent ;
+
+
     public String Role ;
     public int Id ;
     private int Age;
     protected  String Name ;
+    public static Integer JobId;
     public static Vector<Staff> StaffList = new Vector<>();
+
+
     public int getAge() {
         return Age;
     }

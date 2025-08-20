@@ -8,6 +8,7 @@ public class Cleaner extends Staff implements Human{
         this.Name = Name;
         StaffList.add(this);
         this.Role = "Cleaner";
+        this.JobId = 3;
 
     }
     @Override
