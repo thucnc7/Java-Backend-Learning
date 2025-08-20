@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public interface HotelAsset {
+public abstract class HotelAsset {
+    String Id;
 }

@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
 
-public class Hotel {
-}
+public abstract class Hotel {
+
+    }
